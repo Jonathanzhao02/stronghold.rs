@@ -1,0 +1,6 @@
+project: stronghold.rs-fuzz
+target: client-fuzz
+
+cmds:
+ - cmd: make launch
+
