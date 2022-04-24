@@ -10,6 +10,7 @@ ADD . /stronghold.rs
 WORKDIR /stronghold.rs/client/fuzz
 
 ## Build instructions
+RUN cargo install cargo-fuzz
 RUN make build
 RUN ls
 
